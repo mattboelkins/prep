@@ -57,10 +57,35 @@
             </p>
 
             <sidebyside width="50%">
-              <image source="images/tandem-V-t-blank-axes">
+              <!-- <image source="images/tandem-V-t-blank-axes"></image> -->
+
+              <image>
+                <prefigure xmlns="https://prefigure.org" label="prefigure-changing-tandem-V-t-blank-axes">
+                  <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+                    <coordinates bbox="[-1,-1,6,6]">
+                      <group>
+                        <grid rx="(-1,0.5,6)" ry="(-1,0.5,6)" />
+                        <axes xlabel="t" ylabel="V" decorations="no"
+                        hticks="(1,1,5)" vticks="(1,1,5)" />
+                      </group>
+                    </coordinates>
+                  </diagram>
+                </prefigure>
                 <description><p>Blank axes for plotting <m>V</m> versus <m>t</m>.</p></description>
               </image>
-              <image source="images/tandem-h-t-blank-axes">
+              <!-- <image source="images/tandem-h-t-blank-axes"></image> -->
+               <image>
+                <prefigure xmlns="https://prefigure.org" label="prefigure-changing-tandem-h-t-blank-axes">
+                  <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+                    <coordinates bbox="[-1,-1,6,6]">
+                      <group>
+                        <grid rx="(-1,0.5,6)" ry="(-1,0.5,6)" />
+                        <axes xlabel="t" ylabel="h" decorations="no"
+                        hticks="(1,1,5)" vticks="(1,1,5)" />
+                      </group>
+                    </coordinates>
+                  </diagram>
+                </prefigure>
                 <description><p>Blank axes for plotting <m>h</m> versus <m>t</m>.</p></description>
               </image>
             </sidebyside>
@@ -111,10 +136,35 @@
             </p>
 
             <sidebyside width="50%">
-              <image source="images/tandem-V-t-blank-axes">
+              <!-- <image source="images/tandem-V-t-blank-axes"></image> -->
+
+              <image>
+                <prefigure xmlns="https://prefigure.org" label="prefigure-changing-tandem-V-t-blank-axes-2">
+                  <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+                    <coordinates bbox="[-1,-1,6,6]">
+                      <group>
+                        <grid rx="(-1,0.5,6)" ry="(-1,0.5,6)" />
+                        <axes xlabel="t" ylabel="V" decorations="no"
+                        hticks="(1,1,5)" vticks="(1,1,5)" />
+                      </group>
+                    </coordinates>
+                  </diagram>
+                </prefigure>
                 <description><p>Blank axes for plotting <m>V</m> versus <m>t</m>.</p></description>
               </image>
-              <image source="images/tandem-h-t-blank-axes">
+              <!-- <image source="images/tandem-h-t-blank-axes"></image> -->
+               <image>
+                <prefigure xmlns="https://prefigure.org" label="prefigure-changing-tandem-h-t-blank-axes-2">
+                  <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
+                    <coordinates bbox="[-1,-1,6,6]">
+                      <group>
+                        <grid rx="(-1,0.5,6)" ry="(-1,0.5,6)" />
+                        <axes xlabel="t" ylabel="h" decorations="no"
+                        hticks="(1,1,5)" vticks="(1,1,5)" />
+                      </group>
+                    </coordinates>
+                  </diagram>
+                </prefigure>
                 <description><p>Blank axes for plotting <m>h</m> versus <m>t</m>.</p></description>
               </image>
             </sidebyside>
@@ -176,13 +226,61 @@
             <figure xml:id="F-tandem-car-pos">
                 <caption>At left, a graph of the relationship between a car's position <m>s</m> and time <m>t</m>, as described at the start of this exercise.  At right, blank axes for plotting the graph of the car's position described in part (d).</caption>
                 <sidebyside width="50%">
-                  <image source="images/tandem-ez-position-time">
+                 <!--  <image source="images/tandem-ez-position-time"></image> -->
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-changing-tandem-ez-position-time">
+                      <diagram xmlns="https://prefigure.org" width="250" height="321" margins="5">
+                        <coordinates bbox="[-2,-2,12,16]">
+                          <group>
+                            <grid id="grid" spacings="(-2,2,12),(-2,2,16)"/>
+                            <axes id="axes" xlabel="t" ylabel="s"
+                            hlabels="(2,4,10)" vlabels="(2,4,14)"
+                            hticks="(2,2,10)" vticks="(2,2,14)"/>
+                          </group>
+
+                          <definition>f1(x)=2*sin(0.5*pi*(x-1)) + 2</definition>
+                          <definition>f2(x)=4</definition>
+                          <definition>f3(x)=-2*sin(0.5*pi*(x-2)) + 6</definition>
+                          <definition>f4(x)=8</definition>
+                          <definition>f5(x)=-2*sin(0.5*pi*(x-2)) + 10</definition>
+                          <definition>f6(x)=12</definition>
+                          <definition>f7(x)=-2*sin(0.5*pi*(x-1)) + 14 </definition>
+
+                          <graph function="f1" domain="(0,2)" />
+                          <graph function="f2" domain="(2,3)" />
+                          <graph function="f3" domain="(3,5)" />
+                          <graph function="f4" domain="(5,7)" />
+                          <graph function="f5" domain="(7,9)" />
+                          <graph function="f6" domain="(9,10)" />
+                          <graph function="f7" domain="(10,12)" />
+
+                          <point p="(4,6)" alignment="se"><m>(4,6)</m></point>
+                        </coordinates>
+                      </diagram>
+                    </prefigure>
                     <description>
                       <p>The graph shows the car's position <m>s</m> at time <m>t</m>, as described at the start of this exercise.  The graph shows portions of time where the position increases, and portions where the position stays constant.</p>
                     </description>
                   </image>
-                  <image source="images/tandem-ez-position-time-blank-axes"><description><p>A graph of the relationship between a car's position <m>s</m> and time <m>t</m></p>
-                </description></image>
+
+                  <!-- <image source="images/tandem-ez-position-time-blank-axes"></image> -->
+                  <image>
+                    <prefigure xmlns="https://prefigure.org" label="prefigure-changing-tandem-ez-position-time-blank-axes">
+                      <diagram xmlns="https://prefigure.org" width="250" height="321" margins="5">
+                        <coordinates bbox="[-2,-2,12,16]">
+                          <group>
+                            <grid id="grid" spacings="(-2,2,12),(-2,2,16)"/>
+                            <axes id="axes" xlabel="t" ylabel="s" decorations="no"
+                            hticks="(2,2,10)" vticks="(2,2,14)"/>
+                          </group>
+
+                        </coordinates>
+
+                      </diagram>
+                    </prefigure>
+                    <description><p>Blank axes for plotting the car's position (as described in part (d)), <m>s</m>, as a function of time, <m>t</m>.</p>
+                    </description>
+                  </image>    
                 </sidebyside>
             </figure>
 
