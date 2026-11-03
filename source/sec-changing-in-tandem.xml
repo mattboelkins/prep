@@ -81,9 +81,20 @@
 				</tabular>
 			</table>
 			<figure xml:id="F-tandem-Volume-time">
-				<caption>A visual representation of the data in <xref ref="T-tandem-aquarium">Table</xref>.</caption>
-				<image source="images/tandem-aquarium-V-t"><description><p>A visual representation of the data in <xref ref="T-tandem-aquarium">Table</xref>.</p>
-				</description></image>
+				<caption>
+					A visual representation of the data in <xref ref="T-tandem-aquarium">Table</xref>.
+				</caption>
+				<!-- <image source="images/tandem-aquarium-V-t"> -->
+				<image>
+					<prefigure xmlns="https://prefigure.org" label="prefigure-changing-tandem-aquarium-V-t">
+						<xi:include href="prefigure/chap-changing/tandem-aquarium-V-t.xml"/>
+					</prefigure>
+					<description>
+						<p>
+							A plot of of the data in <xref ref="T-tandem-aquarium">Table</xref>.
+						</p>
+					</description>
+				</image>
 			</figure>
 		</sidebyside>
 
@@ -116,13 +127,17 @@
 		<sidebyside width="50%">
 			<figure xml:id="F-tandem-empty-conical-tank">
 				<caption>The empty conical tank.</caption>
-				<image source="images/tandem-empty-conical-tank" width="50%"><description><p>The empty conical tank.</p>
-				</description></image>
+				<image source="images/tandem-empty-conical-tank" width="50%"> </image> 
 			</figure>
 			<figure xml:id="F-tandem-filled-conical-tank">
 				<caption>The conical tank, partially filled.</caption>
-				<image source="images/tandem-filled-conical-tank" width="50%"><description><p>The conical tank, partially filled.</p>
-				</description></image>
+				<image source="images/tandem-filled-conical-tank" width="50%">
+					<description>
+						<p>
+							This image shows the same conical tank as at left, but now partially filled with water.  The radius of the surface of the water is labeled <m>r</m> and the height of the water is labeled <m>h</m>.
+						</p>
+					</description>
+				</image>
 			</figure>
 		</sidebyside>
 
@@ -214,17 +229,31 @@
 
 		<p>
 			Plotting this data on two different sets of axes, we see the different ways that <m>V</m> and <m>h</m> change with <m>t</m>.  Whereas volume increases at a constant rate, as seen by the straight line appearance of the points in <xref ref="F-tandem-cone-V-t">Figure</xref>, we observe that the water's height increases in a way that it rises more slowly as time goes on, as shown by the way the curve the points lie on in <xref ref="F-tandem-cone-h-t">Figure</xref> <q>bends down</q> as time passes.
-                </p>
+        </p>
 			<sidebyside width="50%">
 				<figure xml:id="F-tandem-cone-V-t">
 					<caption>Plotting <m>V</m> versus <m>t</m>.</caption>
-			    	<image source="images/tandem-cone-V-t" width="50%"><description><p>Plotting <m>V</m> versus <m>t</m>.</p>
-			    	</description></image>
+			    	<!-- <image source="images/tandem-cone-V-t" width="50%"></image> -->
+					<image>
+						<prefigure xmlns="https://prefigure.org" label="prefigure-changing-tandem-cone-V-t">
+							<xi:include href="prefigure/chap-changing/tandem-cone-V-t.xml"/>
+						</prefigure>
+						<description>
+							<p>A plot of the data from the first two rows of <xref ref="T-tandem-cone-V-h-t"/> showing how values of <m>V</m> depend on <m>t</m>.</p>
+						</description>
+					</image>
 				</figure>
 				<figure xml:id="F-tandem-cone-h-t">
 					<caption>Plotting <m>h</m> versus <m>t</m>.</caption>
-			    	<image source="images/tandem-cone-h-t" width="50%"><description><p>Plotting <m>h</m> versus <m>t</m>.</p>
-			    	</description></image>
+			    	<!-- <image source="images/tandem-cone-h-t" width="50%"></image> -->
+					<image>
+						<prefigure xmlns="https://prefigure.org" label="prefigure-changing-tandem-cone-h-t">
+							<xi:include href="prefigure/chap-changing/tandem-cone-h-t.xml"/>
+						</prefigure>
+						<description>
+							<p>A plot of the data from the first and third rows of <xref ref="T-tandem-cone-V-h-t"/> showing how values of <m>h</m> depend on <m>t</m>.</p>
+						</description>
+					</image>
 			    </figure>
 			</sidebyside>
 

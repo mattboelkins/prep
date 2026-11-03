@@ -123,9 +123,16 @@
 				</tabular>
 			</table>
 			<figure xml:id="F-functions-Dolbear-data">
-				<caption>Graph of data from the function <m>T = D(N) = 40 + 0.25N</m> and the underlying curve.</caption>
-				<image source="images/functions-Dolbears-Law" width="50%"><description><p>Graph of data from the function <m>T = D(N) = 40 + 0.25N</m> and the underlying curve.</p>
-				</description></image>
+				<caption>
+					Graph of data from the function <m>T = D(N) = 40 + 0.25N</m> and the underlying curve.
+				</caption>
+				<image source="images/functions-Dolbears-Law" width="50%">
+					<description>
+						<p>
+							Graph of data from the function <m>T = D(N) = 40 + 0.25N</m> and the underlying curve.
+						</p>
+					</description>
+				</image>
 			</figure>
 		</sidebyside>
 

@@ -15,8 +15,8 @@
   <activity xml:id="act-tandem-conical-tank">
     <introduction>
       <p>
-			Consider a tank in the shape of an inverted circular cone (point down) where the tank's radius is <m>2</m> feet and its depth is <m>4</m> feet.  Suppose that the tank is being filled with water that is entering at a constant rate of <m>0.75</m> cubic feet per minute.
-		</p>
+        Consider a tank in the shape of an inverted circular cone (point down) where the tank's radius is <m>2</m> feet and its depth is <m>4</m> feet.  Suppose that the tank is being filled with water that is entering at a constant rate of <m>0.75</m> cubic feet per minute.
+      </p>
       <p/>
     </introduction>
     <task workspace="12cm" xml:id="act-tandem-conical-tank-task-0">
@@ -63,7 +63,12 @@
                     </coordinates>
                   </diagram>
                 </prefigure>
-            <description><p>An inverted cone with labeled radius <m>2</m> ft and depth <m>4</m> ft, with water partially filling the bottom of the tank.</p></description></image>
+              <description>
+                <p>
+                  An inverted cone with labeled radius <m>2</m> ft and depth <m>4</m> ft, with water partially filling the bottom of the tank.
+                </p>
+              </description>
+          </image>
       </solution>
     </task>
     <task workspace="6cm" xml:id="act-tandem-conical-tank-task-1">
@@ -225,7 +230,12 @@
                       </coordinates>
                     </diagram>
                 </prefigure>
-            <description><p>A graph of volume versus time, using the values from the table. The graph is a straight line through the origin with slope <m>0.75</m>.</p></description></image>
+              <description>
+                <p>
+                  A graph of volume versus time, using the values from the table. The graph is a straight line through the origin with slope <m>0.75</m>.
+                </p>
+              </description>
+            </image>
         </sidebyside>
       </answer>
       <solution>
@@ -299,7 +309,12 @@
                       </coordinates>
                     </diagram>
                 </prefigure>
-            <description><p>A graph of volume versus time, using the values from the table. The graph is a straight line through the origin with slope <m>0.75</m>.</p></description></image>
+              <description>
+                <p>
+                  A graph of volume versus time, using the values from the table. The graph is a straight line through the origin with slope <m>0.75</m>.
+                </p>
+              </description>
+            </image>
         </sidebyside>
       </solution>
     </task>
@@ -317,7 +332,12 @@
                       </coordinates>
                     </diagram>
                 </prefigure>
-            <description><p>Blank axes for making a graph of height versus time.</p></description></image>
+            <description>
+              <p>
+                Blank axes for making a graph of height versus time.
+              </p>
+            </description>
+          </image>
           <image width="45%">
                 <prefigure xmlns="https://prefigure.org" label="prefigure-changing-tandem-heightgraph-blankaxes-2">
                     <diagram dimensions="(300,300)" margins="5">
@@ -326,7 +346,12 @@
                       </coordinates>
                     </diagram>
                 </prefigure>
-            <description><p>Blank axes for making a graph of height versus time.</p></description></image>
+            <description>
+              <p>
+                Blank axes for making a graph of height versus time.
+              </p>
+            </description>
+          </image>
           <!-- <image width="45%" source="images/tandem-h-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
           <image width="45%" source="images/tandem-h-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image> -->
         </sidebyside>

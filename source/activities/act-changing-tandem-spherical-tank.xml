@@ -48,7 +48,12 @@
                       </coordinates>
                     </diagram>
                 </prefigure>
-            <description><p>An sphere with labeled radius <m>3</m> ft, with water partially filling the bottom of the spherical tank.</p></description></image>
+              <description>
+                <p>
+                  A sphere with labeled radius <m>3</m> ft, with water partially filling the bottom of the spherical tank.
+                </p>
+              </description>
+            </image>
         </answer>
       <solution>
         <p>Answers will vary. A sketch should show a sphere with labeled radius <m>3</m> ft, with water partially filling the tank.</p>
@@ -73,7 +78,12 @@
                       </coordinates>
                     </diagram>
                 </prefigure>
-            <description><p>An sphere with labeled radius <m>3</m> ft, with water partially filling the bottom of the spherical tank.</p></description></image>
+              <description>
+                <p>
+                  A sphere with labeled radius <m>3</m> ft, with water partially filling the bottom of the spherical tank.
+                </p>
+              </description>
+            </image>
       </solution>
     </task>
     <task workspace="3cm" xml:id="act-tandem-spherical-tank-task-1">
@@ -177,7 +187,10 @@
                       </coordinates>
                     </diagram>
                 </prefigure>
-            <description><p>Blank axes for graphing volume versus time.</p></description></image>
+              <description>
+                <p>Blank axes for graphing volume versus time.</p>
+              </description>
+            </image>
 
             <!-- <image width="45%" source="images/tandem-sphere-V-t"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image> -->
 <!--          </figure> -->
@@ -247,7 +260,12 @@
                       </coordinates>
                     </diagram>
                 </prefigure>
-            <description><p>A graph of volume versus time, using the values from the table. The graph is a straight line through <m>(0, 36\pi)</m> with slope <m>-1.2</m>.</p></description></image>
+              <description>
+                <p>
+                  A graph of volume versus time, using the values from the table. The graph is a straight line through <m>(0, 36\pi)</m> with slope <m>-1.2</m>.
+                </p>
+              </description>
+            </image>
             <!-- <image width="45%" source="images/tandem-sphere-V-t"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image> -->
 <!--          </figure> -->
         </sidebyside>
@@ -316,7 +334,12 @@
                       </coordinates>
                     </diagram>
                 </prefigure>
-            <description><p>A graph of volume versus time, using the values from the table. The graph is a straight line through <m>(0, 36\pi)</m> with slope <m>-1.2</m>.</p></description></image>
+              <description>
+                <p>
+                  A graph of volume versus time, using the values from the table. The graph is a straight line through <m>(0, 36\pi)</m> with slope <m>-1.2</m>.
+                </p>
+              </description>
+            </image>
             <!-- <image width="45%" source="images/tandem-sphere-V-t"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image> -->
 <!--          </figure> -->
         </sidebyside>
@@ -336,7 +359,8 @@
                       </coordinates>
                     </diagram>
                 </prefigure>
-            <description><p>Blank axes for making a graph of height versus time.</p></description></image>
+            <description><p>Blank axes for making a graph of height versus time.</p></description>
+          </image>
           <image width="45%">
                 <prefigure xmlns="https://prefigure.org" label="prefigure-changing-tandem-heightgraph-blankaxes-4">
                     <diagram dimensions="(300,300)" margins="5">
@@ -345,7 +369,8 @@
                       </coordinates>
                     </diagram>
                 </prefigure>
-            <description><p>Blank axes for making a graph of height versus time.</p></description></image>
+            <description><p>Blank axes for making a graph of height versus time.</p></description>
+          </image>
           <!-- <image width="45%" source="images/tandem-h-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image>
           <image width="45%" source="images/tandem-h-t-blank-axes"><description><p>ADD ALT TEXT TO THIS IMAGE</p></description></image> -->
         </sidebyside>
