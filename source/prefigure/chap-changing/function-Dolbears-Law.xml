@@ -1,7 +1,7 @@
 <diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
   <coordinates bbox="[-20,-10,200,100]">
     <group>
-      <grid id="grid" rx="(-20,20,200)" ry="(-10,10,100)"/>
+      <grid id="grid" spacings="(-20,20,200),(-10,10,100)"/>
       <axes id="axes" xlabel="N" ylabel="T" decorations="no"
 	    hlabels="(40,40,160)" vlabels="(20,20,80)"/>
     </group>
@@ -10,7 +10,7 @@
     <graph function="f" domain="(40,180)"/>
     <point p="(40,50)" />
     <point p="(80,60)" />
-    <point p="(120,70)" alignment="se"><m>(120, 70)</m></point>
+    <point p="(120,70)" alignment="se" clear-background="yes"><m>(120, 70)</m></point>
     <point p="(160,80)" />
     <point p="(180,85)" />
 
